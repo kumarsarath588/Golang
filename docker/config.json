@@ -1,0 +1,12 @@
+{
+	"Provider": {
+		"Host": "tcp://192.168.200.236:2375"
+	},
+	"ContainerOpts": {
+		"Name": "Test",
+		"Image": "ubuntu:latest",
+		"Hostname": "test.acoe.com",
+		"Command": ["/bin/bash"]
+	}
+
+}
